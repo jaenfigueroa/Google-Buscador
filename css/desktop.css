@@ -1,0 +1,7 @@
+/* min-width: 850px */
+
+.main-footer {
+  /* background-color: aqua; */
+  flex-direction: row;
+  justify-content: space-between;
+}

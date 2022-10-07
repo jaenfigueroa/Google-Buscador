@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Clone de Google" />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google</title>
+    <!-- mobile css -->
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <!-- desktop css -->
+    <link
+      rel="stylesheet"
+      href="./css/desktop.css"
+      media="screen and (min-width: 850px)" />
+    <!-- js -->
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+    <header>
+      <ul class="main-header">
+        <li><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
+        <li>
+          <a href="https://www.google.com.pe/imghp?hl=es-419&ogbl">Imagenes</a>
+        </li>
+        <li>
+          <svg class="gb_Ue aplicaciones" focusable="false" viewBox="0 0 20 20">
+            <path
+              d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+          </svg>
+        </li>
+        <li>
+          <img
+            src="	https://lh3.googleusercontent.com/ogw/AOh-ky0qFwWNP8-Rv4l_AgC3ZZQ_TcP_KMPeRWgDqcM8_A=s32-c-mo"
+            alt="foto-perfil"
+            id="header-foto-perfil" />
+        </li>
+      </ul>
+    </header>
+
+    <main class="page-main">
+      <section>
+        <figure>
+          <img src="./img/google-logo.png " alt="google-logo" />
+        </figure>
+        <label class="main-input" for="busqueda">
+          <span>
+            <svg
+              focusable="false"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              style="width: 20px; height: 20px">
+              <path
+                d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                style="fill: #989ca2"></path>
+            </svg>
+          </span>
+          <input type="text" id="busqueda" />
+          <span>
+            <svg
+              class="goxjub"
+              focusable="false"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill="#4285f4"
+                d="m12 15c1.66 0 3-1.31 3-2.97v-7.02c0-1.66-1.34-3.01-3-3.01s-3 1.34-3 3.01v7.02c0 1.66 1.34 2.97 3 2.97z"></path>
+              <path fill="#34a853" d="m11 18.08h2v3.92h-2z"></path>
+              <path
+                fill="#fbbc05"
+                d="m7.05 16.87c-1.27-1.33-2.05-2.83-2.05-4.87h2c0 1.45 0.56 2.42 1.47 3.38v0.32l-1.15 1.18z"></path>
+              <path
+                fill="#ea4335"
+                d="m12 16.93a4.97 5.25 0 0 1 -3.54 -1.55l-1.41 1.49c1.26 1.34 3.02 2.13 4.95 2.13 3.87 0 6.99-2.92 6.99-7h-1.99c0 2.92-2.24 4.93-5 4.93z"></path>
+            </svg>
+          </span>
+        </label>
+        <div>
+          <button type="submit" class="boton" id="buscar">
+            Buscar en Google
+          </button>
+          <button type="submit" class="boton">Voy a tener suerte</button>
+        </div>
+        <p>
+          Ofrecido por Google en:&nbsp;<a href="#">Español (Latinoamérica)</a>
+        </p>
+      </section>
+    </main>
+
+    <footer class="pag-footer">
+      <p class="footer-pais">Perú</p>
+      <hr />
+      <section class="main-footer">
+        <div>
+          <a
+            href="https://about.google/?utm_source=google-PE&utm_medium=referral&utm_campaign=hp-footer&fg=1">
+            Sobre Google
+          </a>
+          <a
+            href="https://ads.google.com/intl/es-419_pe/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">
+            Publicidad
+          </a>
+          <a
+            href="https://smallbusiness.withgoogle.com/intl/es-419_pe/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=PE">
+            Negocios
+          </a>
+          <a href="https://www.google.com/search/howsearchworks/?fg=1">
+            Como funciona la Búsqueda
+          </a>
+        </div>
+        <div>
+          <a href="https://policies.google.com/privacy?hl=es-PE&fg=1">
+            Privacidad
+          </a>
+          <a href="https://policies.google.com/terms?hl=es-PE&fg=1">
+            Condiciones
+          </a>
+          <p>Preferencias</p>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
